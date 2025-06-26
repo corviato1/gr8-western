@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+p {
+  color: black;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+div {
+  color: black;
+  font-size: 2em;
+}
+
 @keyframes App-logo-bounce {
   0%, 100% {
     transform: translateY(0);
