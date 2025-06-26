@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-bounce infinite 2s ease-in-out;
+    animation: App-logo-bounce infinite 4s ease-in-out;
   }
 }
 
@@ -35,8 +35,22 @@ p {
 }
 
 div {
-  color: black;
+  color: rgb(17, 0, 172);
   font-size: 2em;
+}
+
+div:empty {
+  height: 50px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: none;
 }
 
 @keyframes App-logo-bounce {
@@ -44,6 +58,6 @@ div {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }

@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -6,10 +6,8 @@ function App() {
       <header className="App-header">
         <p>Alan Contreras</p>
         <img src="/logo.png" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <div>(707) 908 - 5478</div>
+        <div></div>
+        <div><a href="tel:+17079085478">(707) 908-5478</a></div>
       </header>
     </div>
   );
